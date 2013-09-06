@@ -129,7 +129,6 @@ public class JavaParameterDefinition extends ParameterDefinition {
     //gets the list of JDKs to put in "selectable JDKs" array in job config, includes the base JDKs from jenkins
     public List<String>  getSelectableJDKNames(){
         List<String> result = getJDKSasStrings();
-
         return result;
     }
 
